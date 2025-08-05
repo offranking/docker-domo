@@ -46,12 +46,47 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 
 <img width="1440" height="900" alt="Screenshot 2025-08-01 at 3 18 40 pm" src="https://github.com/user-attachments/assets/be5a85ba-1e94-43ca-8b4b-eb3fd4bef3f4" />
 
+### At this step, you need to execute the command docker run hello-world to verify that Docker is installed and working correctly.
+
+## docker run hello-world
+<img width="1295" height="448" alt="Screenshot 2025-08-05 at 3 19 16 pm" src="https://github.com/user-attachments/assets/6f095c47-bf1c-4142-8e4c-675ad422eda0" />
+
+### this is part is to check the images on the container by "run docker images" (rewrite)
+<img width="1081" height="99" alt="Screenshot 2025-08-05 at 3 22 55 pm" src="https://github.com/user-attachments/assets/a95807e3-8d6f-4498-acb5-b58666c11e1d" />
+
+### The command docker ps -a is used to list all Docker containers on your system
+<img width="1263" height="124" alt="Screenshot 2025-08-05 at 3 25 40 pm" src="https://github.com/user-attachments/assets/f192e1e2-3e4f-4afa-974e-24bfa4853b80" />
+
+# Pull the latest version of the "ubuntu" image from Docker Hub
+docker pull ubuntu
+
+<img width="1127" height="134" alt="Screenshot 2025-08-05 at 3 27 19 pm" src="https://github.com/user-attachments/assets/83add17f-697d-490d-9a3f-dddba941a3a3" />
+
+# Push a local image to Docker Hub
+docker push boyals0408/hello-world
 
 
+<img width="1049" height="465" alt="Screenshot 2025-08-05 at 3 41 51 pm" src="https://github.com/user-attachments/assets/9d3f32d4-0d72-484d-8732-a295374423c1" />
 
 
+<img width="991" height="141" alt="Screenshot 2025-08-05 at 3 45 32 pm" src="https://github.com/user-attachments/assets/1ca1cdb4-01f9-4538-ab82-f6acc095839f" />
+
+images push to the docker hub
+
+username "boyals0408/hello-world" which is the first container 
+
+<img width="1440" height="467" alt="Screenshot 2025-08-05 at 3 40 50 pm" src="https://github.com/user-attachments/assets/e95e846b-f9b1-4591-b117-76d7b5e8d8c3" />
 
 
+username "boyals0408/ubuntu" which is the second container 
+
+<img width="1172" height="458" alt="Screenshot 2025-08-05 at 3 46 38 pm" src="https://github.com/user-attachments/assets/27ad33b6-cc46-4e2f-85ca-74ee1ce7bc8a" />
+
+
+The final step is to remove Docker images from your local machine. "run docker rm"
+
+
+<img width="1054" height="393" alt="Screenshot 2025-08-05 at 3 58 27 pm" src="https://github.com/user-attachments/assets/28f8b226-c3c5-418c-9c70-0f5b669c4a78" />
 
 
 
